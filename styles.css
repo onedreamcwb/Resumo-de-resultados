@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root {
+
+    /*PRIMARIO*/
+    --vermelho-claro: hsl(0, 100%, 67%);
+    --amarelo-alaranjado: hsl(39, 100%, 56%);
+    --verde-teca: hsl(166, 100%, 37%);
+    --cobalto-azul: hsl(234, 85%, 45%);
+
+    /*GRADIENTES*/
+    --azul-ardosia-fundo: hsl(252, 100%, 67%);
+    --azul-claro-fundo: hsl(241, 81%, 54%);
+    --violeta-azul-circulo: hsla(256, 72%, 46%, 1);
+    --azul-persa: hsla(241, 72%, 46%, 0);
+
+    /*NEUTRO*/
+    --branco: hsl(0, 0%, 100%);
+    --azul-palido: hsl(221, 100%, 96%);
+    --alfazema-clara: hsl(241, 100%, 89%);
+    --azul-cincentro: hsl(224, 30%, 27%);
+    --preto: #000000;
+}
+body {
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    min-width: 100vh;
+}
+.container {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    border-radius: 18px;
+}
+.left {
+    color: var(--branco);
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252,100%,67%), hsl(241,81%,54%));
+}
