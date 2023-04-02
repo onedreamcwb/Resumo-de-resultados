@@ -4,8 +4,7 @@ Esta é uma solução para o [Results summary component challenge on Frontend Me
 
 ## Tabela de conteúdos
 
-- [Visão Geral](#overview)
-  - [O Desafio](#o desafio)
+  - [O Desafio](# o desafio)
   - [Captura de ecrã](#screenshot)
   - [Links](#links)
 - [O meu processo](#my-process)
@@ -18,8 +17,6 @@ Esta é uma solução para o [Results summary component challenge on Frontend Me
 
 **Note: Apague esta nota e actualize o índice com base nas secções que guarda.**
 
-## Visão geral
-
 ### O desafio
 
 Os utilizadores devem ser capazes de o fazer:
@@ -29,15 +26,11 @@ Os utilizadores devem ser capazes de o fazer:
 
 ### Imagem de ecrã
 
-![](./screenshot.jpg)
+![](./assets/images/dekstop.png)
 
-Adicione uma imagem de ecrã da sua solução. A forma mais fácil de o fazer é utilizar o Firefox para visualizar o seu projecto, clicar com o botão direito do rato na página e seleccionar "Take a Screenshot". Pode escolher uma imagem de ecrã de altura total ou uma imagem cortada com base no comprimento da página. Se for muito longa, talvez seja melhor cortá-la.
+### Mobile
 
-Em alternativa, pode usar uma ferramenta como [FireShot](https://getfireshot.com/) para tirar a captura de ecrã. FireShot tem uma opção gratuita, pelo que não precisa de a adquirir. 
-
-Depois, corte/optimize/edite a sua imagem como quiser, adicione-a ao seu projecto, e actualize o caminho do ficheiro na imagem acima.
-
-**Nota: Apague esta nota e os parágrafos acima quando adicionar a sua imagem de ecrã. Se preferir não adicionar uma captura de ecrã, sinta-se à vontade para remover toda esta secção.**
+![](./assets/images/mobile.png)
 
 ### Ligações
 
@@ -46,68 +39,79 @@ Depois, corte/optimize/edite a sua imagem como quiser, adicione-a ao seu project
 
 ## O meu processo
 
+Basicamente eu demorei algumas horas pra finalizar esse projeto. Eu comecei dando as classes pra todos elementos html, refatorando tudo pra inglês, pois é uma forma de eu começar a praticar o inglês nos códigos.
+
+Antes de finalizar busquei refatorar todo código css pra diminuir as linhas.
+
 #### Construído com
 
-- Marcação HTML5 semântica
+- Marcação HTML5 semântico
 - Propriedades personalizadas do CSS
 - Flexbox
-- Grelha CSS
-- Fluxo de trabalho móvel-primeiro
-- [Reagir](https://reactjs.org/) - Biblioteca do JS
-- [Next.js](https://nextjs.org/) - Reagir enquadramento
-- [Componentes Estilizados](https://styled-components.com/) - Para estilos
-
-**Note: Estes são apenas exemplos. Elimine esta nota e substitua a lista acima com as suas próprias escolhas***.
+- Fluxo de trabalho Dekstop-primeiro
+- [HTML](https://www.w3schools.com/html/) - Biblioteca do HTML
+- [CSS](https://www.w3schools.com/css/) - Biblioteca do CSS
 
 ### O que aprendi
 
-Utilize esta secção para recapitular algumas das suas principais aprendizagens enquanto trabalha neste projecto. Escrever estas e fornecer amostras de código de áreas que pretende destacar é uma óptima forma de reforçar os seus próprios conhecimentos.
-
-Para ver como pode adicionar trechos de código, ver abaixo:
+Apenas botei em prática tudo que aprendi. Eu fiquei muito em dúvida no sumário, como eu chamaria os socres visual, memory, reaction, verbal. Após algum estudo resolvi chamar eles pela classe `span`
 
 ```html
-<h1>algum código HTML de que me orgulho</h1>
+ <div class="right">
+      <h4>Summary</h4>
+      <div class="score">
+        <div class="score-reaction">
+          <div class="score-con">
+            <img src="./assets/images/icon-reaction.svg" alt="icon Reaction">
+            <span>Reaction</span>
+          </div>
+          <span id="black-text">80 / <span class="grey">100</span></span>
+        </div>
+        <div class="score-memory">
+          <div class="score-con">
+            <img src="./assets/images/icon-memory.svg" alt="icon Memory">
+            <span>Memory</span>
+          </div>
+          <span class="black-text">92 / <span class="grey">100</span></span>
+        </div>
+        <div class="score-verbal">
+          <div class="score-con">
+            <img src="./assets/images/icon-verbal.svg" alt="icon Reaction">
+            <span>Verbal</span>
+          </div>
+          <span class="black-text">61 / <span class="grey">100</span></span>
+        </div>
+        <div class="score-visual">
+          <div class="score-con">
+            <img src="./assets/images/icon-visual.svg" alt="icon Reaction">
+            <span>Visual</span>
+          </div>
+          <span class="black-text">72 / <span class="grey">100</span></span>
+        </div>
+        
+      </div>
 ```
 ```css
-.proud-of-this-css {
-  cor: papayawhip;
-}
+    padding: 50px;
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 12px 0px var(--violeta-azul-circulo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-Se quiser mais ajuda para escrever o Markdown, recomendamos que consulte [The Markdown Guide](https://www.markdownguide.org/) para saber mais.
-
-**Note: Apague esta nota e o conteúdo desta secção e substitua com as suas próprias aprendizagens.**
-
 ### Continuação do desenvolvimento
 
-Utilize esta secção para delinear as áreas que pretende continuar a focar em projectos futuros. Estes poderão ser conceitos com os quais ainda não se sinta completamente à vontade ou técnicas que considere úteis e que deseje aperfeiçoar e aperfeiçoar.
-
-**Nota: Apague esta nota e o conteúdo desta secção e substitua-a pelos seus próprios planos para o desenvolvimento continuado.**
-
-### Recursos úteis
-
-- [Recurso de exemplo 1](https://www.example.com) - Isto ajudou-me por razões XYZ. Gostei muito deste padrão e vou utilizá-lo no futuro.
-- [Recurso de exemplo 2](https://www.example.com) - Este é um artigo surpreendente que me ajudou finalmente a compreender XYZ. Recomendá-lo-ia a qualquer pessoa que ainda esteja a aprender este conceito.
-
-**Note: Apagar esta nota e substituir a lista acima por recursos que o ajudaram durante o desafio. Estes podem ser úteis para qualquer pessoa que veja a sua solução ou para si próprio quando olhar para trás neste projecto no futuro.**
+Primeiramente refatorar o CSS. Atualmente está com 171 linhas. Quero reduzir bem ele, e as variáveis estão em português.
 
 ## Autor
 
-- Website - [Adicione o seu nome aqui](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@seu nome de utilizador](https://www.twitter.com/yourusername)
-
-**Note: Apague esta nota e adicione/remove/edite linhas acima com base nos links que gostaria de partilhar.**
+- Linkedin - [Gustavo Araujo](https://www.linkedin.com/in/ga20222/)
+- Frontend Mentor - [@onedreamcwb](https://www.frontendmentor.io/profile/onedreamcwb)
 
 ## Agradecimentos
 
-É aqui que pode dar uma dica de chapéu a qualquer pessoa que o tenha ajudado neste projecto. Talvez tenha trabalhado em equipa ou se tenha inspirado na solução de outra pessoa. Este é o local perfeito para lhes dar algum crédito.
-
-**Note: Apague esta nota e edite o conteúdo desta secção conforme necessário. Se completou este desafio sozinho, sinta-se à vontade para apagar completamente esta secção.**
-
-Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
+Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estava fazendo uma chamada global no body com `view-height`e não `view-width` e a disponibilizar seu tempo pra sempre tentar ajudar.
