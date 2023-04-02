@@ -119,5 +119,5 @@ Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estav
 [Git Hub Allan Rodrigues](https://github.com/AllanR1991)
 <br>
 <br>
-<img src="https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png">
+<a href="https://github.com/AllanR1991"><img src="https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png"></a>
 
