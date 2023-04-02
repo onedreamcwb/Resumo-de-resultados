@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vh;
+    min-width: 100vw;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 .container {
@@ -49,7 +49,7 @@ body {
     padding: 20px;
 }
 .left h4 {
-    text-align: center;
+    align-content: center;
 }
 .score-left {
     padding: 50px;
