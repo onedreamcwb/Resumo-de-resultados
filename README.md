@@ -113,4 +113,5 @@ Primeiramente refatorar o CSS. Atualmente está com 171 linhas. Quero reduzir be
 
 Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estava fazendo uma chamada global no body com `view-height`e não `view-width` e a disponibilizar seu tempo pra sempre tentar ajudar.
 
-- GitHub do Allan [Allan Rodrigues](https://github.com/AllanR1991) 
+- GitHub do Allan [Allan Rodrigues](https://github.com/AllanR1991) <br>
+![](https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png)
