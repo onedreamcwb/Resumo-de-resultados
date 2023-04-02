@@ -153,15 +153,15 @@ button:hover {
         border-bottom-right-radius: 20px;
     }
     .right {
-        padding: 0;
-        width: 80%;
-        padding: 0 auto;
+        padding: 0px;
+        width: 100%;
     }
     .left-text {
-        padding: 20px;
+        padding: 0px;
         text-align: center;
     }
     .container {
+        box-sizing: border-box;
         width: 100%;
         flex-direction: column;
         border-radius: 0px;
