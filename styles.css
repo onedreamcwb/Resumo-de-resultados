@@ -72,24 +72,29 @@ body {
 .small-score {
     text-align: center;
 }
-.left h3, p {
-    text-align: center;
-}
-.left p {
-    color: var(--azul-palido);
-    
-}
 .score-con {
     display: flex;
 }
-.score-reaction {
+.score-reaction, .score-memory, .score-verbal, .score-visual {
     display: flex;
     justify-content: space-between;
-    color: var(--vermelho-claro);
     margin-bottom: 15px;
     padding: 15px;
     background-color: var(--azul-persa);
     border-radius: 10px;
+}
+.score-reaction {
+    color: var(--vermelho-claro);
+}
+.score-memory {
+    color: var(--amarelo-alaranjado);
+
+}
+.score-verbal {
+    color: var(--verde-teca);
+}
+.score-visual {
+    color: var(--cobalto-azul);
 }
 #black-text {
     color: var(--preto);
@@ -101,33 +106,7 @@ body {
 .score-con img {
     margin-right: 5px;
 }
-.score-memory {
-    color: var(--amarelo-alaranjado);
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    padding: 15px;
-    background-color: var(--azul-persa);
-    border-radius: 10px;
-}
-.score-verbal {
-    color: var(--verde-teca);
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    padding: 15px;
-    background-color: var(--azul-persa);
-    border-radius: 10px;
-}
-.score-visual {
-    color: var(--cobalto-azul);
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    padding: 15px;
-    background-color: var(--azul-persa);
-    border-radius: 10px;
-}
+
 button {
     margin-top: 30px;
     padding: 15px 30px;
