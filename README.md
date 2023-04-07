@@ -112,22 +112,31 @@ Primeiramente refatorar o CSS. Atualmente está com 171 linhas. Quero reduzir be
 - Linkedin - [Gustavo Araujo](https://www.linkedin.com/in/ga20222/)
 - Frontend Mentor - [@onedreamcwb](https://www.frontendmentor.io/profile/onedreamcwb)
 
-## Agradecimentos
+## Autores
 
 Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estava fazendo uma chamada global no body com `view-height`e não `view-width` e a disponibilizar seu tempo pra sempre tentar ajudar.
 
-[Git Hub Allan Rodrigues](https://github.com/AllanR1991)
-<br>
-<br>
-<a href="https://github.com/AllanR1991"><img src="https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png"></a>
 
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/iuricode">
-        <img src="https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="https://github.com/AllanR1991">
+        <img src="https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png" width="100px;" alt="Foto do Allan Rodrigues no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Allan Rodrigues</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/onedreamcwb">
+        <img src="https://media.discordapp.net/attachments/1044972183870525540/1093833106970132550/gu.jpg?width=478&height=640" width="100px;" alt="Foto do Gustavo Araújo no GitHub"/><br>
+        <sub>
+          <b>Gustavo Araújo</b>
         </sub>
       </a>
     </td>
