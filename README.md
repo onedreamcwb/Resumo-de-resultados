@@ -56,53 +56,6 @@ Antes de finalizar busquei refatorar todo código css pra diminuir as linhas.
 
 Apenas botei em prática tudo que aprendi. Eu fiquei muito em dúvida no sumário, como eu chamaria os socres visual, memory, reaction, verbal. Após algum estudo resolvi chamar eles pela classe `span`
 
-```html
- <div class="right">
-      <h4>Summary</h4>
-      <div class="score">
-        <div class="score-reaction">
-          <div class="score-con">
-            <img src="./assets/images/icon-reaction.svg" alt="icon Reaction">
-            <span>Reaction</span>
-          </div>
-          <span id="black-text">80 / <span class="grey">100</span></span>
-        </div>
-        <div class="score-memory">
-          <div class="score-con">
-            <img src="./assets/images/icon-memory.svg" alt="icon Memory">
-            <span>Memory</span>
-          </div>
-          <span class="black-text">92 / <span class="grey">100</span></span>
-        </div>
-        <div class="score-verbal">
-          <div class="score-con">
-            <img src="./assets/images/icon-verbal.svg" alt="icon Reaction">
-            <span>Verbal</span>
-          </div>
-          <span class="black-text">61 / <span class="grey">100</span></span>
-        </div>
-        <div class="score-visual">
-          <div class="score-con">
-            <img src="./assets/images/icon-visual.svg" alt="icon Reaction">
-            <span>Visual</span>
-          </div>
-          <span class="black-text">72 / <span class="grey">100</span></span>
-        </div>
-        
-      </div>
-```
-```css
-    padding: 50px;
-    width: 74px;
-    height: 74px;
-    border-radius: 100%;
-    box-shadow: inset 1px 1px 12px 0px var(--violeta-azul-circulo);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-```
 ### Continuação do desenvolvimento
 
 Primeiramente refatorar o CSS. Atualmente está com 171 linhas. Quero reduzir bem ele, e as variáveis estão em português.
