@@ -132,7 +132,7 @@ Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estav
 
 <table>
   <tr>
-    <td align="center">
+    <td>
       <a href="https://github.com/onedreamcwb">
         <img src="https://media.discordapp.net/attachments/1044972183870525540/1093833106970132550/gu.jpg?width=478&height=640" width="100px;" alt="Foto do Gustavo Araújo no GitHub"/><br>
         <sub>
