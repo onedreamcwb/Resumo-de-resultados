@@ -125,7 +125,7 @@ Agradecimentos ao Allan que me ajudou a ver um erro em meu código onde eu estav
   <tr>
     <td align="center">
       <a href="https://github.com/iuricode">
-        <img src="https://github.com/AllanR1991" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://media.discordapp.net/attachments/1044972183870525540/1092124373948837958/22855740.png" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
         <sub>
           <b>Iuri Silva</b>
         </sub>
